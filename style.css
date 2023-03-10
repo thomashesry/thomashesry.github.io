@@ -220,6 +220,13 @@ hr{
 	}
 }
 
+@media (min-width: 0px) and (max-width: 360px) {
+	h1{
+		font-size: 35px !important;
+		line-height: 67px !important;
+	}
+}
+
 #scrollspy{
 	background: #fff !important;
 }
