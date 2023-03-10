@@ -86,12 +86,12 @@ hr{
 
 @media (min-width: 1000px) {
 	.slide{
-			/** height: 75vh; **/
-			padding: 100px 0 150px 0 !important;
-	  	display: flex;
-	  	flex-flow: row wrap;
-	  	overflow: hidden;
-	  	justify-content: center;
+		/** height: 75vh; **/
+		padding: 100px 0 50px 0 !important;
+  	display: flex;
+  	flex-flow: row wrap;
+  	overflow: hidden;
+  	justify-content: center;
 	}
 	.main-header{
 		background: url('main-header.webp') center center no-repeat;
