@@ -8,10 +8,6 @@ body{
 	overflow-x: hidden;
 }
 
-img{
-	max-width: 90%;
-}
-
 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900 !important;
@@ -83,6 +79,9 @@ hr{
 	    background-size: 133%;
 	  }
 	}
+	img{
+		max-width: 90% !important;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -116,6 +115,9 @@ hr{
 	.col-lg{
 		margin: 0 100px 0 100px !important;
 	}
+	img{
+		max-width: 90% !important;
+	}
 }
 
 @media (min-width: 643px) and (max-width: 1000px) {
@@ -145,6 +147,9 @@ hr{
 	  background-repeat: no-repeat;
 	  box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
 	  overflow: hidden;
+	}
+	img{
+		max-width: 90% !important;
 	}
 }
 
@@ -187,6 +192,9 @@ hr{
 	}
 	.sc-player{
 		width: 400px !important;
+	}
+	img{
+		max-width: 90% !important;
 	}
 }
 
