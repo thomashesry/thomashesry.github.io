@@ -1,10 +1,10 @@
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing:	border-box;
+	box-sizing:	border-box !important;
 }
 
 body{
+	margin: 0 !important;
+	padding: 0 !important;
 	overflow-x: hidden;
 }
 
@@ -91,6 +91,7 @@ hr{
 	  	display: flex;
 	  	flex-flow: row wrap;
 	  	overflow: hidden;
+	  	justify-content: center;
 	}
 	.main-header{
 		background: url('main-header.webp') center center no-repeat;
@@ -118,6 +119,9 @@ hr{
 	img{
 		max-width: 90% !important;
 	}
+	.bigIcon{
+		font-size: 70px !important;
+	}
 }
 
 @media (min-width: 643px) and (max-width: 1000px) {
@@ -126,6 +130,7 @@ hr{
 	  	display: flex;
 	  	flex-flow: row wrap;
 	  	overflow: hidden;
+	  	justify-content: center;
 	}
 	.black-rectangle{
 		margin: 0;
@@ -151,18 +156,33 @@ hr{
 	img{
 		max-width: 90% !important;
 	}
+	.bigIcon{
+		font-size: 70px !important;
+	}
 }
 
 @media (max-width: 643px) {
 	.bio{
-		padding: 0 40px 0 40px !important;
+		padding: 0 30px 0 30px !important;
 		text-align: center;
 	}
 	.slide{
-			padding: 50px 0 50px 0;
+			padding: 40px 0 40px 0;
 	  	display: flex;
 	  	flex-flow: row wrap;
 	  	overflow: hidden;
+	  	text-align: center !important;
+	  	justify-content: center;
+	}
+	.slide h2{
+		overflow-wrap: break-word;
+		font-size: 30px !important;
+		text-align: center !important;
+	}
+	.slide h3{
+		overflow-wrap: break-word;
+		font-size: 25px !important;
+		text-align: center !important;
 	}
 	.main-header{
 		background: url('main-header.webp') center center no-repeat;
@@ -172,12 +192,13 @@ hr{
 		background-size: cover;
 	  background-repeat: no-repeat;
 	  box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
+	  overflow: hidden;
 	}
 	.black-rectangle{
 		margin: 0;
 		padding: 0;
 		width: 430px;
-		height: 68px;
+		height: 67px;
 		background: black;
 		z-index: -100;
 		position: absolute;
@@ -185,13 +206,14 @@ hr{
 	  left: calc(50% - 215px);
 	}
 	h1{
-		font-size: 45px !important;
+		font-size: 40px !important;
+		line-height: 67px !important;
 	}
 	.bigIcon{
 		font-size: 70px !important;
 	}
 	.sc-player{
-		width: 400px !important;
+		width: 90% !important;
 	}
 	img{
 		max-width: 90% !important;
