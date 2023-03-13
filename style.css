@@ -68,6 +68,14 @@ hr{
 	  background-repeat: no-repeat;
 	  box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
 	}
+	.slide{
+		/** height: 75vh; **/
+		padding: 25px 0 25px 0 !important;
+  	display: flex;
+  	flex-flow: row wrap;
+  	overflow: hidden;
+  	justify-content: center;
+	}
 	@keyframes anim-header-bg {
 	 	0% {
 	    background-size: 133%;
@@ -82,9 +90,12 @@ hr{
 }
 
 @media (min-width: 1000px) {
+	.first-slide{
+		padding: 10px 0 50px 0 !important;
+	}
 	.slide{
 		/** height: 75vh; **/
-		padding: 100px 0 50px 0 !important;
+		padding: 50px 0 50px 0;
   	display: flex;
   	flex-flow: row wrap;
   	overflow: hidden;
