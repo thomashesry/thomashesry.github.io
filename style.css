@@ -34,8 +34,6 @@ hr{
 	position: absolute;
 }
 
-
-
 .gradient-theme{
 	background: linear-gradient(to right, #fd746c, #ff9068) !important;
 	-webkit-background-clip: text !important;
@@ -63,7 +61,7 @@ hr{
 	.main-header{
 		animation: anim-header-bg 20s linear infinite;
 		background: url('main-header.webp') center center no-repeat;
-		height: calc(100vh - 50px) !important;
+		height: calc(100vh - 55px) !important;
 		width: 100vw !important;
 		color: white;
 		background-size: 150%;
@@ -94,7 +92,7 @@ hr{
 	}
 	.main-header{
 		background: url('main-header.webp') center center no-repeat;
-		height: calc(100vh - 50px) !important;
+		height: calc(100vh - 55px) !important;
 		width: 100vw !important;
 		color: white;
 		background-size: cover;
@@ -145,7 +143,7 @@ hr{
 	}
 	.main-header{
 		background: url('main-header.webp') center center no-repeat;
-		height: calc(100vh - 50px) !important;
+		height: calc(100vh - 55px) !important;
 		width: 100vw !important;
 		color: white;
 		background-size: cover;
@@ -187,7 +185,7 @@ hr{
 	}
 	.main-header{
 		background: url('main-header.webp') center center no-repeat;
-		height: calc(100vh - 50px) !important;
+		height: calc(100vh - 55px) !important;
 		width: 100vw !important;
 		color: white;
 		background-size: cover;
