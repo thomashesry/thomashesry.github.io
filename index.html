@@ -177,11 +177,20 @@
           <p>Shoot me an email via the form below: <br>
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="8c374ec1-fe7f-4dd5-990f-ce05ca816a16">
-                <input type="text" name="name" required>
-                <input type="email" name="email" required>
-                <textarea name="message" required></textarea>
-                <div class="h-captcha" data-captcha="true"></div>
-                <button type="submit">Submit Form</button>
+                <div class="form-group">
+                  <label for="nameFormSubmit">Name: </label>
+                  <input type="text" class="form-control" name="name" id="nameFormSubmit" required><br>
+                </div>
+                <div class="form-group">
+                  <label for="emailFormSubmit">Email: </label>
+                  <input type="email" class="form-control" name="email" id="emailFormSubmit" required><br>
+                </div>
+                <div class="form-group">
+                  <label for="textareaFormSubmit">Message: </label>
+                  <textarea name="message" class="form-control" id="textareaFormSubmit" required></textarea><br>
+                </div>
+                <div class="h-captcha" data-captcha="true"></div><br>
+                <button type="submit" class="btn btn-primary">Submit Form</button>
             </form>
             <script src="https://web3forms.com/client/script.js" async defer></script>
           <h3>OR</h3><br>
